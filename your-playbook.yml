@@ -1,6 +1,7 @@
 ---
 - name: Simple Ansible Playbook
   hosts: localhost
+  connection: local
   tasks:
     - name: Echo a message
       command: echo "Hello, this is a simple Ansible playbook!"
